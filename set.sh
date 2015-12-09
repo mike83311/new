@@ -1,14 +1,14 @@
 #!/bin/bash
 
-~~~~~UPDATE~~~~~
+echo "~~~~~UPDATE~~~~~"
 sudo apt-get update
 echo "DONE!"
 
-~~~~~UPGRADE~~~~~
+echo "~~~~~UPGRADE~~~~~"
 sudo apt-get upgrade -y
 echo "DONE!"
 
-~~~~~VIM~~~~~
+echo "~~~~~VIM~~~~~"
 sudo apt-get install vim -y
 echo "DONE!"
 
